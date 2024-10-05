@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #91c7f6; 
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #b0f3f9; 
+}
+
+h1 {
+  text-align: center;
+  color: #093c09; 
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.SearchBar input {
+  padding: 10px;
+  width: 70%; 
+  border: 1px solid #d5d4d4; 
+  border-radius: 8px; 
+}
+
+.SearchBar button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6395ca; 
+  color: white; 
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.SearchBar button:hover {
+  background-color: #0056b3; 
+}
+
+p {
+  text-align: center;
+  color: red; 
+}
+
+.weather-display {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-display h2 {
+  margin: 0;
+  font-size: 2rem;
+  color:#05152d
+}
+
+.weather-display p {
+  margin: 5px 0;
+  font-size: 1.2rem; 
+  color: #5a5a5a; 
+}
+.weather-display img {
+  margin: 10px 0; 
+  border-radius: 10px; 
+}
